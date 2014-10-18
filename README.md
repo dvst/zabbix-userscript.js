@@ -1,6 +1,6 @@
 userscript to freeze colum header in overview page of zabbix monitoring system
 
-https://www.zabbix.org/zabbix/overview.php?sid=5bb9bbabf34c0e0f&form_refresh=1&groupid=2&view_style=0
+https://www.zabbix.org/zabbix/overview.php
 
 # README #
 
