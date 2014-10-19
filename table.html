@@ -2,117 +2,49 @@
 <html lang="en">
 <head>
         <meta charset="UTF-8">
-        <style type="text/css">
-                th {
-                        color: #fff;
-                        background-color: #000;
-                }
-                th,td {
-                        width: 66px;
-                        height:50px;
-                }
-                #encabezado-ajustado {
-                        h/eight: 50px;
-                        w/idth: 340px;
-                        top: 0px;
-                }
-
-                #encabezado {    
-                        position: static;
-                        height : 54px;
-                        width: 362px;
-                        left: 9px;
-                }
-                #encabezado + 
-        </style>
+        <link rel="stylesheet" href="css/main.css" type="text/css"></link>
         <script type="text/javascript" src="jquery-2.0.0.min.js"></script>
-        <script type="text/javascript">
-                $(document).ready(function(){
-                        $(document).on('scroll', function(){
-                                if ($('#encabezado')[0].offsetTop < $(document).scrollTop()){
-                                        $("#encabezado").css({position: "fixed", top:0});            
-                                }
-                                        if ($(document).scrollTop() < $("#encabezado-ajustado")[0].offsetTop){
-                                        $("#encabezado").css({position: "static", top: 0});           
-                                }            
-                        });    
-                });
-        </script>
-        <title>Prueba para conversar el encabezado en tablas</title>
+        <script type="text/javascript" src="js/main.js"></script>
+        <title>Encabezado de tabla congelado.</title>
 </head>
 <body>
- <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <table border="1" style="border-collapse=0collapse'">
-                <div id="encabezado-ajustado">
-                        <tr id="encabezado">
-                                <th>titulo</th> <th>titulo</th> <th>titulo</th> <th>titulo</th> <th>titulo</th> 
-                        </tr>
-               </div>
-                <tr>
-                        <td>primera</td> <td>primera</td> <td>primera</td> <td>primera</td> <td>primera</td> 
+ <p>ipsum loren, etc</p> <p>ipsum loren, etc</p> <p>ipsum loren, etc</p>  
+  <table border="1" style="border-collapse=0collapse'">
+        <div id="encabezado-ajustado">
+                <tr id="encabezado">
+                        <th>Nro.</th> <th>Título</th> <th>Título</th> <th>Título</th> <th>Título</th> 
                 </tr>
-                <tr>
-                        <td>segunda</td> <td>segunda</td> <td>segunda</td> <td>segunda</td> <td>segunda</td> 
-                </tr>
-                <tr>
-                        <td>tercera</td> <td>tercera</td> <td>tercera</td> <td>tercera</td> <td>tercera</td> 
-                </tr>
-                <tr>
-                        <td>cuarta</td> <td>cuarta</td> <td>cuarta</td> <td>cuarta</td> <td>cuarta</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-                <tr>
-                        <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> 
-                </tr>
-        </table>
+       </div>
+        <tr>  <td>1</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>2</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>3</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>4</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>5</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>6</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>7</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>8</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>9</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>10</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>11</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>12</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>13</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>14</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>15</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>16</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>17</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>18</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>19</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>20</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>21</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>22</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>23</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>24</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>25</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>26</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>27</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>28</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>29</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+        <tr>  <td>30</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> <td>contenido</td> </tr>
+  </table>
 </body>
 </html>

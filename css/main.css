@@ -1,0 +1,23 @@
+th {
+        color: #fff;
+        background-color: #000;
+}
+th,td {
+        width: 66px;
+        height:50px;
+}
+#encabezado-ajustado {
+        h/eight: 50px;
+        w/idth: 340px;
+        top: 0px;
+}
+#encabezado {    
+        position: static;
+        height : 54px;
+        width: 362px;
+        left: 9px;
+}
+
+tr:nth-child(odd) {
+     background-color:lightblue;
+}
