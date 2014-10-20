@@ -1,5 +1,6 @@
 $(document).ready(function(){
         $(document).on('scroll', function(){
+                // jQuery("table.tableinfo:first").offset().top <  jQuery(document).scrollTop()
                 if ($('#encabezado')[0].offsetTop < $(document).scrollTop()){
                         $("#encabezado").css({position: "fixed", top:0});            
                 }
